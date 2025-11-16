@@ -1,3 +1,16 @@
+# This specific project related ignore
+# RSA key files
+keys/*.pem
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
